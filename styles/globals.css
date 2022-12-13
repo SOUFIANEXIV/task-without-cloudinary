@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    font-family: 'Josefin Sans';
+    background-color: #0D1117;
+    color: #FFF7CC;
+ 
+  }
+  
+
+
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+
+::-webkit-scrollbar-track {
+  background:black ; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background:   gray ; 
+}
+
