@@ -71,8 +71,8 @@ once:true,
 export default galerie;
 
 
-
-export async function getServerSideProps(){
+/*  in build time*/
+/*export async function getServerSideProps(){
   const res =  await fetch(`${baseUrl}/api/photo`)
     const data = await res.json()
     return {
@@ -80,9 +80,9 @@ export async function getServerSideProps(){
        photo:data
       }
     }
-   }
+   }*/
 
-  /* export async function getStaticProps(){
+   export async function getStaticProps(){
     const res =  await fetch(`${baseUrl}/api/photo`)
       const data = await res.json()
       return {
@@ -91,4 +91,4 @@ export async function getServerSideProps(){
         }
       }
      }
-  */
+  
