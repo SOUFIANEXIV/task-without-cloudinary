@@ -79,9 +79,13 @@ const galerie = ({photo}) => {
 export default galerie;
 
 
+<<<<<<< HEAD
 
 
 
+=======
+/*  in build time*/
+>>>>>>> b53494c9efdd6edaeada025046773a47381c0d9e
 /*export async function getServerSideProps(){
   const res =  await fetch(`${baseUrl}/api/photo`)
     const data = await res.json()
@@ -101,5 +105,9 @@ export default galerie;
         }
       }
      }
+<<<<<<< HEAD
      
   
+=======
+  
+>>>>>>> b53494c9efdd6edaeada025046773a47381c0d9e
